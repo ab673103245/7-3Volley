@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="qianfeng.a7_3volley.MainActivity">
+
+    <Button
+        android:onClick="stringRequest"
+        android:text="stringRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--jsonArrayRequest-->
+    <Button
+        android:onClick="jsonObjectRequest"
+        android:text="jsonObjectRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jsonArrayRequest"
+        android:text="jsonArrayRequest" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="imageRequest"
+        android:text="imageRequest"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="imageLoader"
+        android:text="imageLoader"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="niv"
+        android:onClick="niv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkimageview"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv"
+
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+</LinearLayout>
